@@ -1,4 +1,4 @@
-# ASP.NET-Core-5.0-MVC---CRUD-paging-sorting-filtering-EntityFramework-Core-Microsoft-SQL-Server
+# ASP.NET-Core-5.0-MVC-CRUD-paging-sorting-filtering-EntityFramework-Core-Microsoft-SQL-Server
 Приложение представляет из себя главную страницу учёта расходов по их типам(категориям), где можно выбрать страницу расходов (Expense) и страницу 
 типа(категории) расходов (ExpenseType). Перейдя на страницу типа(категории) расходов (ExpenseType) можно создавать, удалять и редактировать
 типы(категории) расходов. Перейдя на страницу расходов (Expense) можно создавать, удалять и редактировать расходы. При этом можно выбирать для 
