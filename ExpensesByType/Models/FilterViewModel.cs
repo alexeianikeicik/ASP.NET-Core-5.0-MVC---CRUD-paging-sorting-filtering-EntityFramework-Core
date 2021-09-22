@@ -8,7 +8,7 @@ namespace ExpensesByType.Models
         public FilterViewModel(List<ExpenseType> expense_type_names, int? ExpenseTypeId, string name)
         {
             // устанавливаем начальный элемент, который позволит выбрать всех
-            expense_type_names.Insert(0, new ExpenseType { Name = "Все", Id = 0 });
+            expense_type_names.Insert(0, new ExpenseType { Name = "All", Id = 0 });
             ExpenseTypes = new SelectList(expense_type_names, "Id", "Name", ExpenseTypeId);
             SelectedExpenseTypeId = ExpenseTypeId;
             SelectedName = name;
